@@ -1,6 +1,8 @@
 import './globals.css';
 
 export const metadata = {
+  authors: [{ name: 'Md Riyan Biswas' }],
+  creator: 'Md Riyan Biswas',
   title: 'Hit Machar – Endless Stick Shooter',
   description: 'Hold to aim, release to fire. Swat every mosquito before it ruins your sleep.',
 };

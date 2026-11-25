@@ -263,6 +263,9 @@ export default function Game() {
               <button className="hbtn" aria-pressed={!muted} onClick={toggleSound}>Sound: {muted ? 'Off' : 'On'}</button>
             </div>
           )}
+              <p className="home-credit">
+            <span>Created by</span> <b>Md Riyan Biswas</b>
+          </p>
         </section>
       )}
 
@@ -349,6 +352,7 @@ export default function Game() {
             </button>
             <button className="btn" onClick={skipName}>{askName === 'play' ? 'Skip, just play' : 'Cancel'}</button>
           </div>
+          
         </section>
       )}
     </main>

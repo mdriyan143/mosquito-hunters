@@ -310,4 +310,19 @@ html, body {
 .hbtn:active:not(:disabled) { transform: translateY(4px); box-shadow: none; }
 .hbtn:disabled { opacity: 0.4; cursor: progress; }
 .hbtn.primary { background: #ffd54a; padding: 16px 20px; font-size: 24px; line-height: 2rem; }
+/* credit line */
+.home-credit {
+  margin: 6px 0 0;
+  padding: 6px 16px;
+  border: 2px dashed #161616;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 15px;
+}
+.home-credit span { opacity: 0.65; }
+.home-credit b {
+  padding: 0 4px;
+  font-weight: 700;
+  background: linear-gradient(transparent 55%, #ffd54a 55%); /* marker highlight */
+}
 @media (prefers-reduced-motion: reduce) { .home-logo { animation: none; } }

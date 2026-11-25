@@ -3,3 +3,7 @@ node_modules
 .vercel
 .env.local
 .env
+# Environment variables
+.env
+.env.*
+!.env.example
